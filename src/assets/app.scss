@@ -1,0 +1,15 @@
+
+$purple1: #884dff;  /* purple 1 is dark purple */
+$purple2:#4c00e6;   /* purple 2 is light purple */
+$light:#fff;   		/* white */
+$darkpurple: rgba(0,0,0,0.7); /*  can be used for laying an extra dark purple translucent background */
+$darkt: rgba(0,0,0,0.5); 
+.bg-purple{background-color:$purple2;}
+.bg-purple1{background-color:$purple1;}
+.bg-darkt{background-color:$darkt;}
+.threed{
+ box-shadow: 4px 4px 3px 0px rgba(69,47,47,0.75);
+	-webkit-box-shadow: 4px 4px 3px 0px rgba(69,47,47,0.75);
+	-moz-box-shadow: 4px 4px 3px 0px rgba(69,47,47,0.75);
+}
+.textshadow{text-shadow:1px 1px black;}
